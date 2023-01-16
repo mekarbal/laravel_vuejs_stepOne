@@ -26,7 +26,10 @@ and change mail crediantials for mailtrap
 
   -php artisan make:seeder CompanySeeder
 
-4-Run the project 
+4-php artisan migrate
+
+
+5-Run the project 
   php artisan serve
 
 
