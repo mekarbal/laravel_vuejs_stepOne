@@ -35,10 +35,12 @@ and change mail crediantials for mailtrap
 
 Run FrontEnd 
 
-cd employees-managment-front
+cd front
 NPM : npm install
 YARN: yarn install
 
 npm run serve
+
+http:localhost:8082
 
 NOT COMPLETED
