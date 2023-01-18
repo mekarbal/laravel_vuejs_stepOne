@@ -16,5 +16,6 @@ class Invitation extends Model
         'is_profile_confirmed',
         'receiver',
         'validated',
+        'email',
     ];
 }

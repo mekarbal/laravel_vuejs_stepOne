@@ -13,6 +13,7 @@ class InvitationController extends Controller
             'sender_name' => 'string',
             'company_name' => 'string',
             'receiver' => 'string',
+            'email' => 'string',
         ]);
         $invitation = Invitation::create($data);
         return response()->json(
@@ -56,6 +57,7 @@ class InvitationController extends Controller
             'sent' => 'boolean',
             'is_Admin' => 'boolean',
             'validated' => 'boolean',
+            'email' => 'string',
         ]);
         $invitation = Invitation::find($id);
 
